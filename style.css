@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0  ;
+}
+
+body {
+    background: #d2d2c1 url(imgs/fundo.png);
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+div#nav-bar {
+    background-color: #bebeae;
+    width: 900px;
+    height: 80px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    padding: 0px 15px;
+    color: #4b566a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.borda {
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+div#box {
+    padding: 8px 8px;
+}
+
+div#container {
+    background-color: #fff;
+    height: 100%;
+    width: 900px;
+}
+
+h1 {
+    padding: 12px 8px;
+    font-size: 24px;
+    color: #858577;
+}
+
+p {
+    padding: 0px 8px 8px 10px;
+    font-size: 16px;
+}
+
+img.img-camp {
+    border: 10px solid #d2d2c1;
+    margin: 8px;
+}
+
+div#footer {
+    width: 900px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
